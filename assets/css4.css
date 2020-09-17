@@ -1,0 +1,80 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-attachment: fixed;
+    color: white;
+    background-image: url(https://ctc.usma.edu/wp-content/uploads/2019/09/181031-Z-YV608-1012-1200x800.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    background-image: url(https://www.history.com/.image/c_fit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_620/MTYxNjkxMzcyMTQ1ODc4MzE4/topic-war-on-terror_feature.jpg);
+    padding-bottom: 2%;
+    padding-top: 2%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 2px white solid;
+}
+.title p {
+    font-weight: 700;
+    background-color: rgba(234, 0, 0 , 0.5);
+}
+.title h1 {
+    background-color: rgba(234, 0, 0 , 0.5);
+}
+
+.nav {
+    background-color: #f75959;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-bottom: white 1px solid;
+}
+.nav-item {
+    background-color: #f75959;
+    border-right: white solid 1px;
+    border-bottom: white solid 1px;
+}
+.active {
+    background-color: red;
+    text-decoration: underline;
+}
+.disabled {
+    color: white !important;
+}
+.nav-item:hover{
+    background-color: red;
+    color: white; 
+}
+.nav-link:hover {
+    color: white;
+}
+.nav-link {
+    font-size: 20px;
+    color: white;
+}
+.brand {
+    font-size: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: brown;
+}
+.brand:hover {
+    background-color: brown;
+}
+.section {
+    background-color: rgba(150,150,150, 0.7);
+    color: white;
+    margin-top: 10%;
+    padding-top: 2%;
+    margin-left: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: left;
+    border: white solid 0.5px;
+    box-shadow: rgba(0,0,0,0.5) 5px 5px;
+    width: 80%;
+    font-size: 20px;
+}
+hr {
+    background-color: white;
+}

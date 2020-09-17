@@ -1,0 +1,75 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: url(https://images.jacobinmag.com/2015/06/17004050/al-Qaeda-1.jpg);
+    background-attachment: fixed;
+    background-size: 1900px 900px;
+}
+
+.nav {
+    background-color: #f75959;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-bottom: white 1px solid;
+}
+.nav-item {
+    background-color: #f75959;
+    border-right: white solid 1px;
+    border-bottom: white solid 1px;
+}
+.active {
+    background-color: red;
+    text-decoration: underline;
+    color: white !important;
+}
+.nav-item:hover{
+    background-color: red;
+    color: white; 
+}
+.nav-link:hover {
+    color: white;
+}
+.nav-link {
+    font-size: 20px;
+    color: white;
+}
+.brand {
+    font-size: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: brown;
+}
+.brand:hover {
+    background-color: brown;
+}
+.bold {
+    font-weight: 700;
+    color: white;
+}
+.btn-danger {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.title {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-image: url(https://images01.military.com/sites/default/files/2018-05/bin-laden.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: white 3px solid;
+    color: white;
+}
+
+.section {
+    background-color: rgba(34, 34, 34, 0.8);
+    color: white;
+    margin-top: 10%;
+    padding-top: 2%;
+    margin-left: 10%;
+    text-align: left;
+    border: white solid 0.5px;
+    box-shadow: rgba(0,0,0,0.5) 5px 5px;
+    width: 80%;
+}
+.section hr {
+    background-color: white;
+}

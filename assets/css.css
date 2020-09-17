@@ -1,0 +1,59 @@
+.jumbotron {
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: rgba(242, 250, 240, 0.4);
+    border: solid 3px white;
+    padding-right: 10%;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px;
+}
+.nav-link {
+    font-size: 20px;
+    color: white;
+}
+.brand {
+    font-size: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: brown;
+}
+.brand:hover {
+    background-color: brown;
+}
+.jumbotron h1 { 
+    width: 100%;
+    font-size: 100px;
+    color: white;
+}
+body {
+    background-image: url(https://whitneymedia.org/assets/artwork/38492/139041.jpeg);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-outline-light {
+    border: white 3px solid;
+    margin-top: 2%;
+    font-size: 25px;
+    font-weight: 700px;
+}
+.nav {
+    background-color: #f75959;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-bottom: white 1px solid;
+}
+.nav-item {
+    background-color: #f75959;
+    border-right: white solid 1px;
+    border-bottom: white solid 1px;
+}
+.active {
+    background-color: red;
+    text-decoration: underline;
+    color: white !important;
+}
+.nav-item:hover{
+    background-color: red;
+    color: white; 
+}
+.nav-link:hover {
+    color: white;
+}
